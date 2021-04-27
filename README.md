@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# 快速开始一个基础Typescript的React项目 创建基于 Typescript 的应用呢
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  React 默认是使用 yarn 进行包管理   npx create-react-app todolist-ts --template typescript
+  使用npm进行包管理 npx create-react-app todolist-ts --template typescript --use-npm
+
+# 安装依赖库 
+1：进入你的项目 [cd todolist-ts] 
+2：执行以下命令
+    yarn add redux react-redux @types/react-redux -S
+    或 
+    npm add redux react-redux @types/react-redux -S
 
 ## Available Scripts
 
