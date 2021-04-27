@@ -1,13 +1,13 @@
 # 快速开始一个基础Typescript的React项目 创建基于 Typescript 的应用
 
-  React 默认是使用 yarn 进行包管理   npx create-react-app todolist-ts --template typescript
+  React 默认是使用 yarn 进行包管理   npx create-react-app todolist-ts --template typescript.\
   使用npm进行包管理 npx create-react-app todolist-ts --template typescript --use-npm
 
 # 安装依赖库 
-1：进入你的项目 [cd todolist-ts]
-2：执行以下命令
-    yarn add redux react-redux @types/react-redux -S
-    或 
+1：进入你的项目 [cd todolist-ts].\
+2：执行以下命令.\
+    yarn add redux react-redux @types/react-redux -S.\
+    或 .\
     npm add redux react-redux @types/react-redux -S
 
 ## Available Scripts 
@@ -16,10 +16,10 @@
 In the project directory, you can run: 
 
 ### `npm start`
-在开发模式下运行应用程序。
+在开发模式下运行应用程序。.\
 打开[http://localhost:3000](http://localhost:3000)在浏览器中查看它。
 
-如果您进行编辑，则页面将重新加载。
+如果您进行编辑，则页面将重新加载。.\
 您还将在控制台中看到任何棉绒错误。
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -29,7 +29,7 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-在交互式监视模式下启动测试运行器。
+在交互式监视模式下启动测试运行器。.\
 有关更多信息，请参见关于[运行测试](https://facebook.github.io/create-react-app/docs/running-tests)的部分。
 
 Launches the test runner in the interactive watch mode.\
@@ -37,10 +37,10 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
-生成用于生产的应用程序到build文件夹。
+生成用于生产的应用程序到build文件夹。.\
 它在生产模式下正确捆绑了React，并优化了构建以获得最佳性能。
 
-生成被最小化，并且文件名包括哈希值。
+生成被最小化，并且文件名包括哈希值。.\
 您的应用已准备好进行部署！
 
 有关更多信息，请参见关于[部署](https://facebook.github.io/create-react-app/docs/deployment)的部分。
